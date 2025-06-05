@@ -7,7 +7,7 @@ My personal web portfolio
 - **Home.** Includes introductory details.
 - **About.** Summary of career objective, tech journey, and work principles.
 - **Experience.** Highlights professional experience in the tech industry.
-- **Work.** Showcases selected projects (To follow).
+- **Work.** Showcases selected projects.
 - **Contact.** Information for getting in touch (To follow).
 
 ## Prerequisites
