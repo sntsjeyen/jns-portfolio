@@ -19,7 +19,7 @@ export default function Experience() {
 
     return (
         <section id="experience" className="pt-25 flex flex-col justify-center items-center">
-            <h2 className="text-6xl text-blue-500 poppins-bold mb-7">Experience</h2>
+            <h2 className="text-6xl text-blue-500 poppins-bold mb-10">Experience</h2>
             <ExperienceCard timeframe="DEC 2024 – APR 2025" position="Backend Developer Intern • Toro Cloud" description={description} skills={skills}/>
         </section>
     )

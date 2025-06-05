@@ -11,7 +11,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({picture, name, description, link}: ProjectCardProps) {
     return (
-        <div className="bg-slate-50/10 rounded-2xl p-7 mx-5 max-w-114 mt-7">
+        <div className="bg-slate-50/10 rounded-2xl p-7 mx-5 max-w-114 mt-10">
             <img className="rounded-lg mb-5" src={picture} alt="" />
             <p className="text-2xl text-slate-50 poppins-semibold">{name}</p>
             <p className="text-base text-slate-50 poppins-regular">{description}</p>

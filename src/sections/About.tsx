@@ -9,7 +9,7 @@ export default function About() {
 
     return (
         <section id="about" className="pt-25 flex flex-col justify-center items-center">
-            <h2 className="text-6xl text-blue-500 poppins-bold mb-7">About Me</h2>
+            <h2 className="text-6xl text-blue-500 poppins-bold mb-10">About Me</h2>
             <div className="flex flex-row justify-center items-center">
                 <div className="w-140 mr-20">
                     <p className="poppins-regular text-base text-slate-50 text-justify mt-2 mb-5"><strong className="poppins-semi-bold text-blue-500">Hello, World! I'm Jun Nathan</strong>, a highly committed computer science fresh graduate who is eager to <strong className="poppins-semi-bold text-blue-500">excellently elevate experiences</strong> in the progressive field of technology.</p>
