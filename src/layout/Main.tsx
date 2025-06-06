@@ -12,7 +12,7 @@ export default function Main() {
           <Experience/>
           <Work/>
           <Contact/>
-          <footer className="flex justify-center items-center poppins-regular text-sm text-slate-50 p-5">
+          <footer className="flex justify-center items-center poppins-regular text-sm text-slate-50 p-5 mt-25">
               © 2025 Jun Nathan Santos. All rights reserved.
           </footer>
       </main>
