@@ -4,7 +4,8 @@ import Toggle from '../components/Toggle'
 
 export default function Navbar() {
     return (
-        <nav className="min-w-full bg-slate-950/75 backdrop-blur-lg
+        <nav className="bg-slate-50/75 dark:bg-slate-950/75
+                        min-w-full backdrop-blur-lg
                         flex p-5 fixed justify-between items-center z-20">
             <Logo></Logo>
             <div className="flex">

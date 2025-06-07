@@ -6,13 +6,15 @@ import Contact from '../sections/Contact'
 
 export default function Main() {
     return (
-      <main className="bg-slate-950 min-w-full flex-col justify-center items-center">
+      <main className="bg-slate-50 dark:bg-slate-950
+                       min-w-full flex-col justify-center items-center">
           <Home/>
           <About/>
           <Experience/>
           <Work/>
           <Contact/>
-          <footer className="flex justify-center items-center poppins-regular text-sm text-slate-50 p-5 mt-25">
+          <footer className="text-slate-950 dark:text-slate-50
+                             flex justify-center items-center poppins-regular text-sm p-5 mt-25">
               © 2025 Jun Nathan Santos. All rights reserved.
           </footer>
       </main>

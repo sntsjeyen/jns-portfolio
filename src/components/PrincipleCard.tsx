@@ -6,7 +6,8 @@ interface PrincipleCardProp {
 
 export default function PrincipleCard({logo}: PrincipleCardProp) {
     return (
-        <div className="bg-slate-50/10 rounded-2xl px-12 py-4 mr-6">
+        <div className="bg-slate-950/10 dark:bg-slate-50/10
+                        rounded-2xl px-12 py-4 mr-6">
             {logo}
         </div>
     )

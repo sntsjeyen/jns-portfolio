@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 .poppins-regular {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -32,20 +34,3 @@
 .navbar-item:hover:after {
     width: 100%;
 }
-
-@keyframes appear {
-    from {
-        opacity: 0;
-        clip-path: inset (100% 100% 0 0);
-    }
-    to {
-        opacity: 1;
-        clip-path: inset(0 0 0 0);
-    }
-}
-
-/* .show {
-    animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-} */
