@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Home() {
     return (
         <section id="home" className="min-h-screen flex justify-center items-center">
-            <img className="border-slate-950/15 dark:border-slate-50/15
+            <img className="border-slate-950/10 dark:border-slate-50/15
                             h-80 rounded-full border-25" src={profile} alt="Profile picture"/>
             <div className="ml-12">
                 <span className="text-slate-950 dark:text-slate-50
