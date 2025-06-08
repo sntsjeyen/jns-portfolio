@@ -17,7 +17,7 @@ export default function ProjectCard({picture, name, description, link}: ProjectC
                           text-2xl poppins-semibold">{name}</p>
             <p className="text-slate-950 dark:text-slate-50
                           text-base poppins-regular">{description}</p>
-            <div className="flex justify-center items-center float-right mt-3 w-12 h-12 rounded-full duration-300 hover:bg-slate-50/10 hover:duration-300">
+            <div className="hover:bg-slate-950/5 flex justify-center items-center float-right mt-3 w-12 h-12 rounded-full duration-300 dark:hover:bg-slate-50/10 hover:duration-300">
                 <a className="text-blue-500 text-3xl" href={link}>
                     <FontAwesomeIcon icon={faGithub}/>
                 </a>
