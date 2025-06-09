@@ -25,7 +25,7 @@ export default function Form() {
                                      rounded-sm p-2 resize-none poppins-regular text-sm mb-8 w-210 h-50
                                      focus:outline-none"name="message" />
             </div>
-            <input className="text-slate-950 dark:text-slate-50
+            <input className="text-slate-950 hover:text-slate-50 dark:text-slate-50
                               border-blue-500 border-3 rounded-full text-base poppins-regular px-4 py-1 duration-300
                               hover:bg-blue-500 hover:duration-300 hover:cursor-pointer w-40 text-center" type="submit" value="Send" />
         </form>
