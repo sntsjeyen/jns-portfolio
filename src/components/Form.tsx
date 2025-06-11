@@ -1,7 +1,7 @@
 export default function Form() {
     return (
         <form className="bg-slate-950/5 dark:bg-slate-50/10
-                         rounded-2xl max-w-240 p-10 flex flex-col items-center">
+                         rounded-2xl max-w-240 p-10 flex flex-col">
             <div className="flex mb-5">
                 <div className="flex flex-col mr-10">
                     <label className="text-slate-950/90 dark:text-slate-50/90
@@ -17,6 +17,13 @@ export default function Form() {
                                       rounded-sm w-100 px-2 py-1 poppins-regular text-sm
                                       focus:outline-none" type="email" name="user_email" />
                 </div>
+            </div>
+            <div className="flex flex-col mb-5">
+                <label className="text-slate-950/90 dark:text-slate-50/90
+                                    poppins-semibold text-lg">Subject</label>
+                <input className="bg-slate-950/5 text-slate-950 focus:bg-slate-950/10 dark:bg-slate-50/10 dark:text-slate-50 dark:focus:bg-slate-50/20
+                                    rounded-sm w-210 px-2 py-1 poppins-regular text-sm
+                                    focus:outline-none" type="email" name="user_email" />
             </div>
             <div className="flex flex-col">
                 <label className="text-slate-950/90 dark:text-slate-50/90
